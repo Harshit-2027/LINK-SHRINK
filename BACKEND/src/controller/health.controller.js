@@ -1,4 +1,4 @@
-import wrapAsync from "../utils/tryCatchWrapper"
+import wrapAsync from "../utils/tryCatchWrapper.js"
 import mongoose from "mongoose"
 
 export const render_health = wrapAsync(async(req, res) => {
